@@ -11,4 +11,7 @@ describe Raindrops do
   it 'raise error when input is not number' do
     expect { subject.convert('abd') }.to raise_error 'You must enter a number!'
   end
+  it 'raise error when input is less than 1' do
+    expect { subject.convert(-5) }.to raise_error 'Number must be positive'
+  end
 end
