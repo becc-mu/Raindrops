@@ -1,3 +1,5 @@
+require 'coveralls'
+Coveralls.wear!
 require 'capybara'
 require 'capybara/rspec'
 require 'simplecov'
