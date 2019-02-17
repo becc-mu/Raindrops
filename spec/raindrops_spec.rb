@@ -14,4 +14,7 @@ describe Raindrops do
   it 'raise error when input is less than 1' do
     expect { subject.convert(-5) }.to raise_error 'Number must be positive'
   end
+  it 'returns number when passed with no factors' do
+    expect(subject.convert(1)).to eq(1)
+  end
 end
