@@ -1,3 +1,4 @@
+[![Coverage Status](https://coveralls.io/repos/github/becc-mu/Raindrops/badge.svg?branch=master)](https://coveralls.io/github/becc-mu/Raindrops?branch=master)
 # Raindrops
 
 ## User story
