@@ -8,6 +8,10 @@ class Raindrops
 
     if (number % 3).zero?
       factor_num += 'Pling'
+    elsif (number % 5).zero?
+      factor_num += 'Plang'
+    elsif (number % 7).zero?
+      factor_num += 'Plong'
     end
     factor_num
   end

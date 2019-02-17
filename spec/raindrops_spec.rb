@@ -23,7 +23,12 @@ describe Raindrops do
       it 'return Pling if the number has a factor of 3' do
         expect(subject.convert(3)).to eq('Pling')
       end
+      it 'return Plang if the number has a factor of 5' do
+      expect(subject.convert(5)).to eq('Plang')
+      end
+      it 'return Plong if the number has a factor of 7' do
+        expect(subject.convert(7)).to eq('Plong')
+      end
     end
   end
-
 end
