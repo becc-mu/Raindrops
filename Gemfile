@@ -3,7 +3,7 @@
 source "https://rubygems.org"
 
 git_source(:github) { |repo_name| "https://github.com/#{repo_name}" }
-gem 'coveralls', '~> 0.8.22', require: false
+gem 'coveralls', require: false
 gem 'rspec'
 gem 'rubocop', require: false
 
