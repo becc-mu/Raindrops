@@ -1,4 +1,4 @@
-[![Coverage Status](https://coveralls.io/repos/github/becc-mu/Raindrops/badge.svg?branch=master)](https://coveralls.io/github/becc-mu/Raindrops?branch=master)
+[![Build Status](https://travis-ci.org/becc-mu/Raindrops.svg?branch=master)](https://travis-ci.org/becc-mu/Raindrops)
 
 # Raindrops
 

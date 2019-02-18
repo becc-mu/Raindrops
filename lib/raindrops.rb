@@ -6,14 +6,19 @@ class Raindrops
     check_factor(number)
   end
 
+
   def check_factor(number)
     factor_num = ''
-    factor_num = 1 if number == 1
-    factor_num += 'Pling' if (number % 3).zero?
-    factor_num += 'Plang' if (number % 5).zero?
-    factor_num += 'Plong' if (number % 7).zero?
+    factor_num += 'Pling' if get_factor(number, 3)
+    factor_num += 'Plang' if get_factor(number, 5)
+    factor_num += 'Plong' if get_factor(number, 7)
     factor_num = number if factor_num == ''
     factor_num
+  end
+
+
+  def get_factor(number, factor)
+        (number % factor).zero?
   end
 
   def number_is_a?(number)
@@ -23,4 +28,5 @@ class Raindrops
   def number_is_not_zero?(number)
     raise 'Number must be positive' if number < 0
   end
+
 end
