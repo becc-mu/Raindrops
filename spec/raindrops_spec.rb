@@ -10,12 +10,6 @@ describe Raindrops do
     it 'should respond to raindrops(number)' do
       expect(subject).to respond_to(:convert).with(1). argument
     end
-    # it 'raise error when input is not number' do
-    #   expect { subject.convert('abd') }.to raise_error 'You must enter a number!'
-    # end
-    # it 'raise error when input is less than 1' do
-    #   expect { subject.convert(-5) }.to raise_error 'Number must be positive'
-    # end
     it 'returns number when passed with no factors' do
       expect(subject.convert(1)).to eq(1)
     end
@@ -30,9 +24,6 @@ describe Raindrops do
     end
     it 'return true if the number divided by the factor with no remainder' do
       expect(get_factor(3, 3)).to eq(true)
-    end
-    it 'returns number when passed with no factors' do
-      expect(return_number?(2, 3)).to eq(2)
     end
   end
 

@@ -1,10 +1,8 @@
 module Calculate
 
-  def return_number?(number, factor)
-    return number unless (number % factor).zero?
-  end
-
   def get_factor(number, factor)
+    number_is_a?(number)
+    number_is_not_zero?(number)
     (number % factor).zero?
   end
 
