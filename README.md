@@ -72,3 +72,6 @@ raindrops.convert('abc') => You must enter a number!
 raindrops.convert(-1) => Number must be positive
 
 ```
+# Screenshot
+
+![](https://github.com/becc-mu/Raindrops/blob/master/public/Screen%20Shot%20.png)
